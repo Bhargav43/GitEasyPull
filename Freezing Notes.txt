@@ -1,0 +1,61 @@
+Microsoft Windows [Version 10.0.17134.1365]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull>pyi-makespec --onefile --hidden-import=os --hidden-import=time --hidden-import=shutil --hidden-import=sys --hidden-import=stat --hidden-import=subprocess --hidden-import=requests --icon="H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\Gitpull-icon.ico" --specpath="H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull" GitEasyPull.py
+wrote H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\GitEasyPull.spec
+now run pyinstaller.py to build the executable
+
+H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull>pyinstaller --onefile --hidden-import=os --hidden-import=time --hidden-import=shutil --hidden-import=sys --hidden-import=stat --hidden-import=subprocess --hidden-import=requests --icon="H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\Gitpull-icon.ico" --specpath="H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull" GitEasyPull.py
+948 INFO: PyInstaller: 3.6
+949 INFO: Python: 3.7.0
+950 INFO: Platform: Windows-10-10.0.17134-SP0
+953 INFO: wrote H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\GitEasyPull.spec
+1024 INFO: UPX is not available.
+1074 INFO: Extending PYTHONPATH with paths
+['H:\\Projects\\Python Related Stuff\\Pyzo Projects\\GitEasyPull',
+ 'H:\\Projects\\Python Related Stuff\\Pyzo Projects\\GitEasyPull']
+1076 INFO: checking Analysis
+1077 INFO: Building Analysis because Analysis-00.toc is non existent
+1077 INFO: Initializing module dependency graph...
+1101 INFO: Caching module graph hooks...
+1228 INFO: Analyzing base_library.zip ...
+22662 INFO: Caching module dependency graph...
+23099 INFO: running Analysis Analysis-00.toc
+23141 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by e:\installation directory\python\python37-64\python.exe
+23566 INFO: Analyzing H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\GitEasyPull.py
+24646 INFO: Processing pre-safe import module hook   urllib3.packages.six.moves
+34119 INFO: Processing module hooks...
+34120 INFO: Loading module hook "hook-certifi.py"...
+34169 INFO: Loading module hook "hook-encodings.py"...
+34594 INFO: Loading module hook "hook-pydoc.py"...
+34635 INFO: Loading module hook "hook-xml.py"...
+35078 INFO: Looking for ctypes DLLs
+35078 INFO: Analyzing run-time hooks ...
+35105 INFO: Including run-time hook 'pyi_rth_certifi.py'
+35161 INFO: Looking for dynamic libraries
+36091 INFO: Looking for eggs
+36091 INFO: Using Python library e:\installation directory\python\python37-64\python37.dll
+36096 INFO: Found binding redirects:
+[]
+36122 INFO: Warnings written to H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\build\GitEasyPull\warn-GitEasyPull.txt
+36319 INFO: Graph cross-reference written to H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\build\GitEasyPull\xref-GitEasyPull.html
+36416 INFO: checking PYZ
+36417 INFO: Building PYZ because PYZ-00.toc is non existent
+36421 INFO: Building PYZ (ZlibArchive) H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\build\GitEasyPull\PYZ-00.pyz
+39330 INFO: Building PYZ (ZlibArchive) H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\build\GitEasyPull\PYZ-00.pyz completed successfully.
+39441 INFO: checking PKG
+39443 INFO: Building PKG because PKG-00.toc is non existent
+39449 INFO: Building PKG (CArchive) PKG-00.pkg
+47194 INFO: Building PKG (CArchive) PKG-00.pkg completed successfully.
+47208 INFO: Bootloader e:\installation directory\python\python37-64\lib\site-packages\PyInstaller\bootloader\Windows-64bit\run.exe
+47213 INFO: checking EXE
+47216 INFO: Building EXE because EXE-00.toc is non existent
+47217 INFO: Building EXE from EXE-00.toc
+47486 INFO: Copying icons from ['H:\\Projects\\Python Related Stuff\\Pyzo Projects\\GitEasyPull\\Gitpull-icon.ico']
+47770 INFO: Writing RT_GROUP_ICON 0 resource with 20 bytes
+47770 INFO: Writing RT_ICON 1 resource with 81680 bytes
+47795 INFO: Updating manifest in H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\build\GitEasyPull\run.exe.xin70mjq
+48101 INFO: Updating resource type 24 name 1 language 0
+48113 INFO: Appending archive to EXE H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\dist\GitEasyPull.exe
+48396 INFO: Building EXE from EXE-00.toc completed successfully.
