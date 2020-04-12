@@ -17,7 +17,7 @@ _Recommendation: Except for Type of OS (Windows), other configurations doesn't m
 -------: | :-------------: | :---------
 1 | GitHub Account | As the git allows the users to access (pull or clone) the open-source repos of others, a login to registered account is a must.
 2 | Git Bash | The Git Bash is a command line intrepretter of Git. This is required as the command in the below program is executed in bash directly in order to avoid slowness of data fetch using web-scrapping.
-3 | Internet Connection | This is required is most part of program when it checks whether URL is valid and while pulling the repo to local.
+3 | Internet Connection | This is required as most part of program when it checks whether URL is valid and while pulling the repo to local.
 
 ## Imported Modules :package:
 Sn | **Module** | **Type** | **Version**
@@ -159,7 +159,7 @@ else:
 ```
 
 #### 3. Path's End Char Check
-_Usually in laguage like Py, the folder's path ending with a '/' character represents the file/folder inside the present is selected. Here, we want to create a new folder inside the present by default. So, eliminating the extra character so it causes no effect._
+_Usually in languages like Py, the folder's path ending with a '/' character represents the file/folder is selected which is inside the present. Here, we want to create a new folder inside the present by default, so, eliminating the extra character so it won't cause no issue._
 ```python
 os.path.split(url)[1] if url[len(url)-1] != '/' else os.path.split(url[:len(url)-1])[1]
 ```
@@ -231,7 +231,7 @@ Press Any Key to exit.
 ```
 
 ### Executable File :floppy_disk:
-_Executable is aslo called freezing since the file works just great in change of confguration of base system or even after removing python as well. The file be used for distribution with ease and without dependencies. Following is the commands I used for the same. [Click here](https://github.com/Bhargav43/GitEasyPull/blob/master/Freezing%20Notes.txt) for logs related to it._
+_Executable is also called script freezing as the file works just great in change of configuration of base system or even is absense of python as well. The file be used for distribution with ease and without any dependencies. Following is the commands I used for creating an executable. [Click here](https://github.com/Bhargav43/GitEasyPull/blob/master/Freezing%20Notes.txt) for logs related to it._
 
 #### Creating Specifications file :page_facing_up:
 
@@ -282,7 +282,7 @@ PyPI `Pyinstaller 3.6` was used for creating the executable in PIP environment. 
 ```
 pyinstaller --onefile --hidden-import=os --hidden-import=time --hidden-import=shutil --hidden-import=sys --hidden-import=stat --hidden-import=subprocess --hidden-import=requests --icon="H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull\Gitpull-icon.ico" --specpath="H:\Projects\Python Related Stuff\Pyzo Projects\GitEasyPull" GitEasyPull.py
 ```
-Which has created me a working executable model as below.
+Which has created me a working executable.
 
 ### Finally, the Working Model :metal:
 
