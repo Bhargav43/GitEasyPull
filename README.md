@@ -1,6 +1,6 @@
 # GitEasyPull
 ## Purpose :bulb:
-To Make the Process of Pulling a Git Repo (Any Public Repo on GitHub.com, self or other's) to a local directory on a Windows PC a bit easier.
+To Make the Process of Pulling a Git Repo (Any Public Repo on GitHub.com, self or other's) to a local directory on a Windows PC a bit easier. Just a simple local automation idea.
 
 ## Base System's Configurations :wrench:
 **Sno.** | **Name** | **Version/Config.**
